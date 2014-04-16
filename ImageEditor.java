@@ -1,15 +1,13 @@
-import javax.swing.JFrame;
+import javax.swing.*;
 
-public class ImageEditorFrame extends JFrame{ 
-	public ImageEditorFrame(){ 
+public class ImageEditor extends JFrame{ 
+	public ImageEditor(){ 
 	setDefaultCloseOperation(EXIT_ON_CLOSE); 
 	setSize(400, 300); 
 	setVisible(true); 
 	} 
-} 
-
-public class Main{
+ 
 	public static void main (String []args){
-	ImageEditorFrame frm = new ImageEditorFrame();
+	ImageEditor frm = new ImageEditor();
 	}
 }
